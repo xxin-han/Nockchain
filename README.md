@@ -143,12 +143,12 @@ screen -S miner
 
 * Run Node + Miner
 ```bash
-bash ../scripts/run_nockchain_miner.sh 
+bash ./scripts/run_nockchain_miner.sh 
 ```
 
 * Run Node Only 
 ```bash
-bash ../scripts/run_nockchain_node.sh
+bash ./scripts/run_nockchain_node.sh
 ```
 
 > **N:** To minimize screen: Ctrl + A + D
