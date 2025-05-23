@@ -26,6 +26,8 @@ No Pre-Mine: 100% fair launch — rewards go to those who compute.
 | 32GB  | 6 + | 200 +  |
 
 * more CPU = more hashrate = more chances
+* I'm currently using [Virtarix](https://my.virtarix.com/aff.php?aff=59) VPS. You can choose between a Cloud VPS or a VDS, but for mining purposes, I highly recommend using a VDS for better performance.
+
 
 ## CLI Installation Steps
 ### Step 1: Install Dependecies
@@ -39,7 +41,6 @@ No Pre-Mine: 100% fair launch — rewards go to those who compute.
 ```bash
 sudo apt install curl iptables build-essential git wget lz4 jq make gcc nano automake autoconf tmux htop nvme-cli libgbm1 pkg-config libssl-dev libleveldb-dev tar clang bsdmainutils ncdu unzip libleveldb-dev -y
 ```
-
 * Rust:
 
 ```bash
@@ -69,7 +70,8 @@ cp .env_example .env
 
 * Build: (takes time depending on your hardware.)
 
-```bashmake install-hoonc
+```bash
+make install-hoonc
 ```
 
 ```bash
@@ -190,7 +192,6 @@ If you see a line that looks like:
 ```bash
 [%mining-on 12.040.301.481.503.404.506 17.412.404.101.022.637.021 1.154.757.196.846.835.552 12.582.351.418.886.020.622 6.726.267.510.179.724.279]
 ```
-![Screenshot 2025-05-23 151852](https://github.com/user-attachments/assets/b0f22def-a1bb-423a-9558-c89f4463615e)
 
 #### How do I check block height?
 If you see a line that looks like:
@@ -198,6 +199,7 @@ If you see a line that looks like:
 ```bash
 block Vo3d2Qjy1YHMoaHJBeuQMgi4Dvi3Z2GrcHNxvNYAncgzwnQYLWnGVE added to validated blocks at 2
 ```
+![Screenshot 2025-05-23 151852](https://github.com/user-attachments/assets/bdd4cac2-3e0b-41ec-aa02-40b628546b39)
 
 
 #### How do I check wallet balance?
